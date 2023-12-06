@@ -1,0 +1,293 @@
+/* body{
+    background-image: url(hero.png)
+} */
+
+nav{
+    display: flex; 
+    justify-content: space-around;
+    flex-direction: row;
+    /* border: 2px solid #832b2b; */
+    /* margin: 4px 4px; */
+    /* background-color: #832b2b; */
+    background-image: linear-gradient(to bottom, #271a4d, #1f1842);
+}
+
+ul{
+    margin-top: 12px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#logo{
+    height: 120px;
+}
+
+#metaverse{
+    padding: -12px -20px;
+    /* border : 2px solid #832b2b; */
+    height: 300px;
+}
+
+#t1{
+    /* border: 2px solid #832b2b; */
+    font-size: 32px;
+    margin-bottom: -68px;
+    margin-left: 52px;
+}
+
+#t2{
+    /* border: 2px solid #832b2b; */
+    margin-top: -48px;
+    margin-left: 272px;
+}
+
+.hero-text h3{
+    font-size: 68px;
+    margin-left: -240px;
+}
+
+.hero{
+    background-image: url(../photos/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    color: white;    
+}
+
+.hero-text{
+    padding-top: 100px;
+    margin-left: 350px;
+    
+    
+
+}
+
+.btn{
+    height: 50px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+.loginBtn{
+  background: radial-gradient(#326eac, #2eb7cb);
+}
+
+.registernBtn{
+  background: radial-gradient(#dd7a7e, #f4be8d);
+}
+
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  
+  #midSection{
+    height: 700px;
+    width: 100%;
+    color: #fff;
+    background-color: #171b26;
+    padding: 0px 540px ;
+  }
+
+  #midSection img{
+    height: 100px;
+  }
+
+  #symbols{
+    /* width: 100%; */
+    display: inline-block;
+    /* border: 2px solid #fff; */
+    padding: 0px 20px;
+  }
+
+ .symbolBox{
+    margin: 50px 120px;
+  }
+
+  #investmentPlans {
+    /* width: 100%; */
+    /* display: inline-block; */
+    /* border: 2px solid #fff; */
+    
+  }
+
+  #investmentPlans p:nth-of-type(1){
+    font-size: 42px;
+    padding: 0px 0px;
+    margin-top: 38px;
+    margin-right: 10px;
+    /* border: 2px solid #fff; */
+  }
+
+  #investmentPlans p:nth-of-type(2) {
+    font-size: 72px;
+    /* margin-bottom: 20px; */
+    /* border: 2px solid #fff; */
+  }
+
+
+  #about{
+    height: 800px;
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(to bottom, #8d1bd0, #221946);
+    padding: 0px 540px ;
+  }
+
+  .about-heading{
+        margin-top: 32px;
+        margin-left: 200px;
+        font-size: 52px;
+        font-weight: 700;
+        /* color: white; */
+  }
+
+  #meta{
+    font-size: 84px;
+    margin-top: 10px;
+  }
+
+  #aboutImg{
+    margin-top: -50px;
+  }
+  .aboutPara{
+    width: 500px;
+    color: white;
+    /* border: 1px solid; */
+    font-size: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
+    /* color: white; */
+  }
+
+  .companyInfo{
+    background: linear-gradient(70deg, #4434ec,#8a40c5, #b25ca4, #da7282);
+    width: 300px;
+    height: 180px;
+    margin-left: -360px;
+    margin-top: -230px;
+    /* border: 2px solid white; */
+  }
+
+  
+  .metaInfo{
+    background: linear-gradient(70deg, #4434ec,#8a40c5, #b25ca4, #da7282);
+    width: 250px;
+    height: 140px;
+    margin-left: 40px;
+    margin-top: 20px;
+    /* border: 2px solid white; */
+  }
+
+  .companyInfo:hover{
+    box-shadow: 5px 6px 6px 2px #021325;
+    transform: scale(1.1);
+  }
+
+  .metaInfo:hover{
+    box-shadow: 5px 6px 6px 2px #171b1f;
+    transform: scale(1.1);
+  }
+  
+  .metaInfo img{
+    height: 50px;
+    /* border: 2px solid white; */
+  }
+
+  .metaInfo p{
+    margin-top: -20px;
+  }
+
+
+  #metaInfo1{
+    margin-top: -170px;
+    
+  }
+  #metaInfo2{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  #metaInfo3{
+    margin-top: 30px;
+    margin-left: 350px;
+  }
+  #metaInfo4{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1100px;
+  }
+  #metaInfo5{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 1200px;
+  }
+  #metaInfo6{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 900px;
+  }
+
+  #metaInfo6 p:nth-child(1){
+    margin-top: 10px;
+    /* margin-left: 600px; */
+  }
+
+  #metaInfo6 p:nth-child(2){
+    margin-top: -50px;
+    /* margin-left: 600px; */
+  }
+  #metaInfo5 p:nth-child(1){
+    margin-top: 10px;
+    /* margin-left: 600px; */
+  }
+
+  #metaInfo5 p:nth-child(2){
+    margin-top: 0px;
+    /* margin-left: 600px; */
+  }
+  #metaInfo4 p:nth-child(1){
+    margin-top: 10px;
+    /* margin-left: 600px; */
+  }
+
+  #metaInfo4 p:nth-child(2){
+    margin-top: 0px;
+    /* margin-left: 600px; */
+  }
+
+  #img1{
+    margin-left: -370px;
+    margin-top: -600px;
+    font-size: 20px;
+    color: white;
+  }
+  
+  #img2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-left: 0px;
+    margin-top: -500px;
+    font-size: 20px;
+    color: white;
+    z-index: -1;
+  }
+
+
